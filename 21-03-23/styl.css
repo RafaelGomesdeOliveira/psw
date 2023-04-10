@@ -64,6 +64,17 @@ input, select{
     box-sizing: border-box;
 }
 
+#login {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+}
+
+#login section {
+    width: 100vw;
+
+}
+
 /* @media screen and (max-width: 530px) {
     input, select{
         flex: 1;
