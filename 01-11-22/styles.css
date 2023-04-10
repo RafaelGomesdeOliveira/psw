@@ -1,0 +1,101 @@
+/* justify-content: flex;*/
+/* justify-content: center; vertical 
+   aling-text: center; horizontal
+*/
+body{
+    margin: 0px;
+    
+}
+.principal {
+
+    display:grid;
+
+    grid-template-areas: "topo topo"
+                         "conteudo lateE"
+                         "rodape rodape" 
+
+    ;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 100px 475px 60px;
+}
+.topo {
+    grid-area: topo;
+    background-color: red;
+}
+
+.conteudo{
+    grid-area: conteudo;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+}
+.part1{
+    background-color: lightcoral;
+    height: 100%;
+    column-count: 3;
+    column-rule: 1px solid white;
+}
+
+.part2{
+    background-color: lightseagreen;
+    height: 100%;
+    column-count: 3;
+    column-rule: 1px solid white;
+}
+
+.part3{
+    background-color: lightgreen;
+    height: 100%;
+    column-count: 3;
+    column-rule: 1px solid white;
+}
+
+.lateE{
+    grid-area: lateE;
+    background-color: lightblue;
+
+}
+
+.rodape{
+    grid-area: rodape;
+    background-color: burlywood;
+    display: flex;
+
+}
+
+.r1, .r2, .r3, .r4{
+    width: 100%;
+}
+
+.r1{
+    background-color: lightcyan;
+}
+.r2{
+    background-color: lightsalmon;
+}
+.r3{
+    background-color: lightslategray;
+
+}
+.r4{
+    background-color: lightpink;
+}
+.centro{ 
+    text-align: justify;
+
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    height: 105.5px;
+}
+td{
+    height: 125px;
+
+}

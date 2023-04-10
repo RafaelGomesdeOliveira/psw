@@ -1,0 +1,49 @@
+body {
+    margin: 0px;
+
+}
+
+.box {
+    display: grid;
+    grid-template-areas: "topo"
+                         "conteudo"
+                         "rodape";
+    grid-template-rows: 20vh 70vh 10vh;
+
+}
+    .top {
+        grid-area: topo;
+        background-color: lightblue;
+        display: grid;
+        grid-template-areas: "top-1 top-2"
+                             "top-3 top-3";
+        grid-template-columns: 30vw 70vw;
+        grid-template-rows: 80% 20%;
+    }
+        .top-1 {
+            grid-area: top-1;
+            background-color: lightgray;
+        }
+        .top-2 {
+            grid-area: top-2;
+            background-color: lightseagreen;
+        }
+        .top-3{
+            grid-area: top-3;
+            background-color: red;
+        }
+
+    .conteudo {
+        grid-area: conteudo;
+        background-color: lightcyan;
+        display: grid;
+        grid-template-areas: "cont-1"
+                             "cont-2"
+                             "cont-3"
+                             "cont-4"
+                             "cont-5";
+    }
+    .rodape {
+        grid-area: rodape;
+        background-color: lightgoldenrodyellow;
+    }

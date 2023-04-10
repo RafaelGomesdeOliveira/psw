@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+
+
+}
+@keyframes movimento {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+}
+img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: movimento;
+    animation-duration: 10s;
+}
+
+
+.principal{
+    display: grid;
+    grid-template-areas: "topo"
+                         "menu"
+                         "conteudo";
+    grid-template-rows: 90px 76px 1000px;
+}
+
+.topo{
+    grid-area: topo;
+    background-color: lightcoral;
+    
+}
+
+.menu{
+    grid-area: menu;
+    background-color: lightblue;
+    position: sticky;
+    top: 0px;
+    text-align: center;
+
+}
+
+.conteudo{
+    grid-area: conteudo;
+    background-color: lightgreen;
+
+}
+

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box">
+        <div class="titulo">
+            <div class="imagtitu">
+                <img class="imgmodi" src="..//imagens/200.jpg" alt="">
+            </div>
+
+            <div class="linktitu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Anteriores</a></li>
+                    <li><a href="#">Localização</a></li>
+                    <li><a href="#">Entrar</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="conteudo">
+            <div class="formu">
+                <h1>FORMULARIO DE CADASTRO</h1>
+            </div>
+            <form action="prova.php" method="post">
+                <div class="tab1">
+
+                    <div class="nome">Nome:<br>
+
+                        <input class="inome" type="text" name="nome" required>
+                    </div>
+
+                    <div>CPF:<br>
+
+                        <input type="text" name="cpf" required>
+                    </div>
+
+                </div>
+                <div class="tab2">
+                    <div class="ema">
+                        Email: <br>
+                        <input class="email" type="text" name="e-mail" required>
+
+                    </div>
+
+                    <div class="sen">
+                        Senha: <br>
+                        <input class="senha" type="text" name="senha" required>
+                    </div>
+
+
+
+                </div>
+                <div class="tab3">
+                    <div class="cid">
+                        Cidade: <br>
+                        <input class="cidade" type="text">
+                    </div>
+
+                    <div class="esta">
+                        <label for="estado">Estado: <br></label>
+                        
+                        <select class="estado" id="est" name="estado">
+                            <option value="BA">BA</option>
+                            <option value="SP">SP</option>
+                            <option value="MG">MG</option>
+                        </select>
+                    </div>
+                    <div class="ce">
+                        CEP: <br>
+                        <input type="text" name="cep">
+                    </div>
+                </div>
+                <div class="tab4">
+                    <div class="ocu">
+                        <label for="Ocupação">Ocupação: <br> </label>
+                        <select class="estado" id="est" name="estado">
+                            <option value="Se">Selecione</option>
+                            <option value="Es">Estudante</option>
+                            <option value="Va">Vagabundo</option>
+                            <option value="Pr">Profissional</option>
+                            <option value="Po">Pós-Graduando</option>
+                        </select>
+                    </div>
+
+                    <div class="int">
+                        Instituição: <br>
+                        <input class="intitui" type="text">
+
+                    </div>
+                </div>
+                <div class="tab5">
+                </div>
+
+        </div>
+        </form>
+
+        <div class="rodape-1"></div>
+
+        <div class="rodape-2">
+            @UNIFG 2019
+        </div>
+    </div>
+
+
+</body>
+
+</html>

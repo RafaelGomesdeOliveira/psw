@@ -1,0 +1,87 @@
+body {
+    margin: 0px;
+    background-color: rgb(247, 247, 247);
+    
+ 
+}
+*{
+    font-family: sans-serif;
+    color: #19315b;
+}
+
+.box {
+    display: grid;
+    grid-template-areas: "topo topo"
+        "inf dados";
+    width: 80vw;
+    height: 0vh;
+    grid-template-columns: 20vw 65vw;
+    margin-left: 10vw;
+}
+
+.top {
+    grid-area: topo;
+    background-color: rgb(247, 247, 247);
+    color: #19315b;
+    height: 20vh;
+    width: 100%;
+}
+
+
+
+.inf {
+    grid-area: inf;
+    background-color: rgb(247, 247, 247);
+    height: 80vh;
+}   
+
+.dados {
+    grid-area: dados;
+    background-color: rgb(247, 247, 247);
+    width: 60%;
+}
+
+.inf > p{
+    border-bottom: 1px solid black;
+    border-right: 1PX solid black;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin: 0px;
+}
+
+.dados > p {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin: 0px;
+    height: 18px;
+    border-left: 1px solid black;
+    padding-left: 10px;
+
+}
+
+#long {
+    padding-bottom: 22.5px;
+
+}
+
+#carg {
+    padding-bottom: 23px;
+
+}
+
+#dataini {
+    padding-bottom:     5px;
+
+}
+
+#curso {
+    padding-bottom: 5px;
+
+}
+
+#horario {
+    padding-bottom: 23px;
+
+}
+

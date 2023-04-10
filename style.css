@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+
+}
+
+.principal{
+    display: grid;
+    grid-template-areas: "menu"
+                         "conteudo";
+
+    grid-template-rows: 100px 84.3vh;                     
+}
+@keyframes movimento {
+    0%   {left:0px; top:0px;}
+    25%  {left:50px; top:0px;}
+    50%  {left:50px; top:200px;}
+    75%  {left:-50px; top:200px;}
+    100% {left:-50px; top:0px;}
+}
+
+img{    
+    display: inline-block;
+    justify-content: center;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: movimento;
+    animation-duration: 5s;
+
+}
+
+.centro {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+}
+
+
+.menu{
+    grid-area: menu;
+    background-color: lightcoral;
+}
+
+.conteudo{
+    grid-area: conteudo;
+    background-color: lightgreen;
+}
+.centro {
+    margin-bottom: 10px;
+    display: flex;
+
+}

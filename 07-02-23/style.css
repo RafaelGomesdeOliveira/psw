@@ -1,0 +1,143 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.imgmodi {
+    border-radius: 1em;
+
+}
+
+li {
+    padding-left: 20px;
+}
+
+.box {
+    display: grid;
+    grid-template-areas: "titulo"
+                         "conteudo"
+                         "rodape-1"
+                         "rodape-2";
+    grid-template-columns: 98.93vw;
+    grid-template-rows: 25vh 100vh 10vh 5vh;
+}
+
+
+.titulo {
+    grid-area: titulo;
+    background-color: #254886;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.conteudo {
+    grid-area: conteudo;
+    display: grid;
+    grid-template-areas: "formu"
+                         "tab1"
+                         "tab2"
+                         "tab3"
+                         "tab4"
+                         "tab5";
+
+    
+}
+    .formu {
+        grid-area: formu;
+        padding-left: 80px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .tab1 {
+        grid-area: tab1;
+        padding-left: 80px;
+        display: flex;
+        padding-bottom: 20px;
+    }
+    .tab2 {
+        grid-area: tab2;
+        padding-left: 80px;
+        display: flex;
+        padding-bottom: 20px;
+    }
+    .tab3 {
+        grid-area: tab3;
+        padding-left: 80px;
+        display: flex;
+        padding-bottom: 20px;
+    }
+    .tab4 {
+        grid-area: tab4;
+        padding-left: 80px;
+        display: flex;
+        padding-bottom: 20px;
+    }
+    .tab5 {
+        grid-area: tab5;
+        padding-left: 80px;
+        display: flex;
+        padding-bottom: 20px;
+    }
+
+
+.rodape-1 {
+    grid-area: rodape-1;
+    background-color: #29363E;
+}
+
+.rodape-2 {
+    grid-area: rodape-2;
+    background-color: #273138;
+    color: white;
+    text-align: center;
+}
+
+H1 {    
+    font-size: 1.5em;
+}
+
+input  {
+    height: 30px;
+    margin-right: 20px;
+}
+label {
+    height: 30px;
+    margin-right: 20px;
+}
+
+.inome {
+    width: 70vh;
+
+}
+.email {
+    width: 70vh;
+
+}
+.cidade {
+    width: 50vh;
+}
+
+.estado {
+    margin-right: 20px;
+    width: 17vh;
+    height: 35px;
+}
+
+.intitui {
+    width: 85vh;
+
+}

@@ -1,0 +1,68 @@
+body {
+    margin: 0px;
+
+}
+
+table, th, td {
+    border: 1px solid black;
+
+}
+
+.box {
+    display: grid;
+    grid-template-areas: "topo"
+                         "conteudo"
+                         "rodape";
+    grid-template-rows: 100px 465px 71px;
+    width: 100%;
+    height: 100vh;
+}
+
+.cabecalho {
+    grid-area: topo;
+    background-color: lightseagreen;
+}
+
+.conteudo {
+    grid-area: conteudo;
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+.box1 {
+    background-color: lightcyan;
+    width: 65%;
+    
+
+}
+.box2 {
+    background-color: lightblue;
+    width: 17.5%;
+}   
+
+.box3 {
+    background-color: aqua;
+    width: 17.5%;
+    overflow-x: auto;
+}
+
+.box3-1 {
+    overflow-x: auto;
+
+}
+
+.colunas {
+    column-count: 4;
+    column-rule: 1px solid black;
+    column-gap: 40px;
+
+}
+
+
+.rodape {
+    grid-area: rodape;
+    background-color: lightseagreen;
+}
+
+

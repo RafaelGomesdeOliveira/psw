@@ -1,0 +1,195 @@
+body {
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+
+}
+
+p {
+    text-align: justify;
+
+}
+
+a {
+    color: white;
+    text-decoration: underline rgb(0, 0, 210);
+}
+.titulo-10 {
+    font-family: 'Rubik Marker Hatch';
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.box {
+    display: grid;
+    grid-template-areas: "titulo"
+                         "barra"
+                         "conteudo"
+                         "rodape";
+
+    grid-template-columns: 100%;
+    grid-template-rows: 25vh 10vh 120vh 60vh;
+
+}
+
+.titulo {
+    background-color: rgb(200,240,240);
+    grid-area: titulo;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}   
+    .imagem-1 {
+        width: 110px;
+        height: 110px;
+    }
+
+    .imagem-2 {
+        width: 110px;
+        height: 110px;
+        padding-right: 10px;
+
+    }
+
+
+
+.barra {
+    grid-area: barra;
+    position: sticky;
+    top: 0px;
+    background-color: rgb(80,80,80);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5em;
+
+
+}
+        
+.estudar {
+    position: fixed;
+    background-color: goldenrod;
+    width: 91.5%;
+    justify-content: flex-start;
+    margin-right: 20px;
+    border-radius: 5px;
+    
+}
+
+.conteudo {
+    grid-area: conteudo;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px;
+
+}
+    .item {
+        background-color: #ccc;
+        width: 394px;
+        border-radius: 20px;
+        margin: 15px;
+        height: 190px;
+        text-align: justify;
+        padding: 5px;
+    }
+
+    .part2 {
+        margin-bottom: 4px;
+
+    }
+
+    .centro {
+        font-size: 1em;
+        flex: 1;    
+        text-align: center;
+
+    }
+
+
+
+.rodape {
+    grid-area: rodape;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60vh;
+
+}
+
+.titulo-rodape {
+    background-color: rgb(80,80,80);
+    width: 100%;
+    height: 10vh;
+    color: #ccc;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.box-rodape {
+    display: grid;
+
+    grid-template-areas: "box-rod-1"
+                         "box-rod-2"
+                         "box-rod-3";
+
+    grid-template-columns: 97%;
+    grid-template-rows: 18vh 18vh 18vh  ;
+    justify-content: center;
+    border-right: 1px solid lightgray;
+
+}
+    .box-rod-1 {
+        grid-area: box-rod-1;
+        background-color: rgb(200,240,240);
+        border-radius: 10px;
+        margin-top: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .box-rod-2 {
+        grid-area: box-rod-2;
+        background-color: rgb(200,240,240);
+        border-radius: 10px;
+        margin-top: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .box-rod-3 {
+        grid-area: box-rod-3;
+        background-color: rgb(200,240,240);
+        border-radius: 10px;
+        margin-top: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+
+
+.sobre {
+    background-color: rgb(200,240,240);
+    height: 25vh;
+    border-right: 1px solid lightgray;
+
+}
+
+    .mim {
+        font-family: 'Rubik Marker Hatch', cursive;
+
+    }
+    .colunas {
+        column-count: 2;
+        text-align: center;
+        margin: 10px;
+        justify-content: center;
+        column-rule: 1px solid black;
+
+    }

@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div > h3, p {
+    text-align: center;
+
+}
+
+.row .mb-3 {
+    width: 40vw;
+
+}

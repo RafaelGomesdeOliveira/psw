@@ -1,0 +1,23 @@
+body {
+    background-image: linear-gradient(to right, #dda15e, #bc6c25);
+
+}
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #233015;
+}
+
+h2 {
+    color:#2f411d;
+
+}
+mark {
+    background-color: lightgreen;
+
+}
+
+p {
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

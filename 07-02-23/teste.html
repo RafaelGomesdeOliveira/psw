@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="box">
+        <div class="top">
+            <div class="top-1">
+                <div class="imag-top">
+                    <img src="../imagens/logo.png" alt="">
+                </div>
+
+            </div>
+
+            <div class="top-2">
+
+                <a class="espaco-A" href="#">HOME</a>
+                <a class="espaco-A" href="#">ANTERIORES</a>
+                <a class="espaco-A" href="#">LOCALIZAÇÃO</a>
+                <a class="espaco-A modi-A" href="#">ENTRAR</a>
+            </div>
+
+            <div class="top-3">
+                <div class="linha-1"></div>
+                <div class="linha-2"></div>
+            </div>
+
+        </div>
+        <div class="conteudo">
+            <div class="h1-cont">
+                <h1>FORMULÁRIO DE CADASTRO</h1>
+                <div class="linha-cont">
+                </div>
+            </div>
+
+            <form action="prova.php" method="post">
+                <div class="cont-1 edit">
+                    <div class="nomee">
+                        Nome:<br>
+                        <input class="input-long" type="text" name="nome" required>
+                    </div>
+
+                    <div class="cpfii">
+                        <label for="cpfi">CPF:</label> <br>
+                        <input class="input-curt" type="text" name="cpf" required>
+                    </div>
+
+
+                </div>
+                <div class="cont-2 edit">
+                    <div class="emaill">
+                        <label for="E-mail">Email:</label> <br>
+
+                        <input class="input-long" type="text" name="email" placeholder="Email para contato" required]>
+                    </div>
+                    <div class="senhaa">
+                        <label for="Key">Senha:</label> <br>
+                        <input class="input-curt" type="text" name="senha" placeholder="Informe a senha para acessar" required>
+                    </div>
+                </div>
+                <div class="cont-3 edit">
+                    <div class="cidadee">
+                        <label for="City">Cidade:</label> <br>
+                        
+                        <input type="text" name="cidade" class="input-curt">
+                    </div>
+
+                    <div class="estado">
+                        <label class="est" for="Estad">Estado:</label> <br>
+                        <select name="estados" class="select-form">
+                            <option value=" "> </option>
+                            <option value="ac">AC</option>
+                            <option value="al">AL</option>
+                            <option value="ap">AP</option>
+                            <option value="am">AM</option>
+                            <option value="ba">BA</option>
+                            <option value="ce">CE</option>
+                            <option value="df">DF</option>
+                            <option value="es">ES</option>
+                            <option value="go">GO</option>
+                            <option value="ma">MA</option>
+                            <option value="mt">MT</option>
+                            <option value="ms">MS</option>
+                            <option value="mg">MG</option>
+                            <option value="pa">PA</option>
+                            <option value="pb">PB</option>
+                            <option value="pr">PR</option>
+                            <option value="pe">PE</option>
+                            <option value="pi">PI</option>
+                            <option value="rj">RJ</option>
+                            <option value="rn">RN</option>
+                            <option value="rs">RS</option>
+                            <option value="ro">RO</option>
+                            <option value="rr">RR</option>
+                            <option value="sc">SC</option>
+                            <option value="sp">SP</option>
+                            <option value="se">SE</option>
+                            <option value="to">TO</option>
+                        </select>
+                    </div>
+
+                    <div class="cep">
+                        <label for="Cepi">CEP:</label> <br>
+                        <input type="text" name="cep" class="input-curt" required>
+
+                    </div>
+
+
+                </div>
+                <div class="cont-4 edit">
+                    <div class="ocupacao">
+                        <label for="ocupacao">Ocupação: </label><br>
+                        <select class="select-form" name="Ocupacao" id="ocup">
+                            <option value="selecione">Selecione!</option>
+                            <option value="estudante">Estudante</option>
+                            <option value="desempregado">Desempregado</option>
+                            <option value="profissional">Profissional</option>
+                            <option value="pos-graduado">Pós-Graduado</option>
+                        </select>
+
+                    </div>
+
+
+
+                    <div class="instituicao">
+                        <label for="intituicao">Instituição:</label> <br>
+
+                        <input class="input-longM" type="text" name="instituicao" placeholder="Instituição em que estuda ou local de trabalho">
+                    </div>
+
+
+                </div>
+                <div class="cont-5 edit">
+                    <input id="input-med" type="submit" value="Cadastrar" >
+                </div>
+            </form>
+
+        </div>
+
+        <div class="rodape">        
+            <div class="rodape-1"></div>
+            <div class="rodape-2">
+                <p>@UNIFG 2019</p>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+</html>

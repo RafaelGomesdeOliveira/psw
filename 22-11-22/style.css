@@ -1,0 +1,112 @@
+body {
+    margin: 0px;
+    font-family: monospace;
+    height: 2500px;
+}
+.box {
+	max-width: 400px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+    display: flex;
+}
+h1 {
+    font-weight: normal;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.tipo-1 {
+    display: block;
+    border: 1px solid #ccc ;
+}
+
+.ex,
+.ex1,
+.ex2,
+.ex3,
+.ex4,
+.ex1-1,
+.ex1-2,
+.ex1-3 {
+    background-color: tomato;
+    margin: 5px;
+}
+.ex2 {
+    width: 50px;
+    height: 50px;
+}
+
+.ex3 {
+    width: 50px;
+    height: 50px;
+}
+.ex4 {
+    flex: 1;
+}
+
+/* Exemplo 2 */
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.ex1-1 {
+    flex: 1;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+
+}
+
+.collumn {
+    flex-direction: column;
+
+}
+
+.collumn-reverse {
+    flex-direction: column-reverse;
+
+}
+
+.ex1-2 {
+    flex: 1;
+    margin: 5px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.nowrap {
+    flex-wrap: nowrap;
+
+}
+
+.wrap {
+    flex-wrap: wrap;
+
+}
+
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+.ex1-3{
+    flex: 1;
+	margin: 5px;
+	background: tomato;
+	text-align: center;
+	font-size: 1.5em;
+
+}
+
+.row-nowrap {
+    flex-flow: row nowrap;
+
+}
+
+.row-wrap {
+    flex-flow: row wrap;
+
+}
+
