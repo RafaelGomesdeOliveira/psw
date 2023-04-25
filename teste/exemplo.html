@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/exemplo.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <button onclick="animarMenu()" id="bntmenu">
+        <span class="linha"></span>
+        <span class="linha"></span>
+        <span class="linha"></span>
+
+    </button>
+
+
+    <script>
+        function animarMenu(){
+            const btn = document.getElementById('bntmenu')
+            btn.classList.toggle('ativarAnimacion')
+        }
+
+        // function mudarCorBorder() {
+
+        //     if (bntmenu.style.border == '4px solid #ccc') {
+        //         bntmenu.style.border = 'none'
+        //     }
+        //     else {
+        //         bntmenu.style.border = '4px solid #ccc'
+
+        //     }
+
+        // }
+
+    </script>
+
+
+    
+</body>
+</html>

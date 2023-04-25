@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+
+main {
+    margin: 5px;
+
+}
+
+article > h2 {
+    margin-bottom: 10px;
+
+}
+
+
+nav#menuitens {
+    display: none;
+}
+
+button#bntmenu {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #929292;
+    background-color: transparent;
+    border-radius: 2px;
+    cursor: pointer;    
+} 
+
+span.linha {
+    width: 20px;
+    height: 2px;
+    background-color: #929292;
+    display: block;
+    margin: 2px auto;
+    position: relative;
+    transform-origin: center;
+    border-radius: 2px;
+    transition-duration: 0.3s;
+
+}
+
+
+button.ativarAnimacion .linha:nth-child(1) {
+    transform: translateY(4px) rotate(-45deg); 
+    background-color: #929292;
+
+}
+
+button.ativarAnimacion .linha:nth-child(2) {
+    width: 0px;
+    background-color: #929292;
+
+}
+
+button.ativarAnimacion .linha:nth-child(3) {
+    transform: translateY(-4px) rotate(45deg);
+    background-color: #929292;
+}
+
+button#bntmenu.ativarAnimacion {
+    border: 1px solid #929292;
+
+}
+
+article {
+    background-color: lightgray;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+header {
+    background-color: lightgray;
+
+}
+
+header > h1 {
+    text-align: center;
+
+}
+
+header li {
+    list-style-type: none;
+    background-color: rgb(118, 118, 118);
+    display: block;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+header ul {
+    background-color: gray;
+
+}
+
+article {
+    display: block;
+    max-width: 500px;
+    margin: auto;
+
+
+}
+
+header > nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+header > nav > ul > li:hover {
+    background-color: rgb(151, 151, 151);
+    transition-duration: 0.4s;
+}
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="estilos/teste.css">
+</head>
+<body>
+
+    <header>
+        <h1>Notícias</h1>
+
+            <button id="bntmenu" onclick="ativarAnimacion(); clickMenu()">
+                <span class="linha"></span>
+                <span class="linha"></span>
+                <span class="linha"></span>
+            </button>
+
+        <nav id="menuitens">
+            <ul>
+                <li><a href="#">Esporte</a></li>
+                <li><a href="#">Política</a></li>
+                <li><a href="#">Tecnologia</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+    <main>
+        <article>
+            <h2>Primeiro exemplo utilizando Media Queries</h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores culpa necessitatibus itaque eaque similique quaerat magni ab iusto, adipisci ipsa quas saepe modi voluptas consequatur facere perspiciatis perferendis minima eveniet atque rem non asperiores qui amet porro! Voluptatem maiores assumenda eum? Harum consequatur, odio praesentium ad modi distinctio veniam possimus in placeat beatae? Itaque praesentium magni iusto quis nostrum nisi deserunt quasi unde incidunt ullam, earum eaque laudantium consequuntur architecto accusamus quaerat corporis aperiam labore ipsa ad sequi. Ea excepturi maiores nesciunt quae voluptatibus nisi ipsum consequatur. Dolorem porro neque vitae explicabo doloribus debitis quo saepe eveniet dolores enim. Vero.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores culpa necessitatibus itaque eaque similique quaerat magni ab iusto, adipisci ipsa quas saepe modi voluptas consequatur facere perspiciatis perferendis minima eveniet atque rem non asperiores qui amet porro! Voluptatem maiores assumenda eum? Harum consequatur, odio praesentium ad modi distinctio veniam possimus in placeat beatae? Itaque praesentium magni iusto quis nostrum nisi deserunt quasi unde incidunt ullam, earum eaque laudantium consequuntur architecto accusamus quaerat corporis aperiam labore ipsa ad sequi. Ea excepturi maiores nesciunt quae voluptatibus nisi ipsum consequatur. Dolorem porro neque vitae explicabo doloribus debitis quo saepe eveniet dolores enim. Vero.</p>
+
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores adipisci illum iusto officiis ipsa dignissimos deleniti voluptas. Obcaecati aut similique quas neque dolor ullam facere vero, aliquam quasi placeat, adipisci tempora a saepe culpa beatae tenetur ipsam harum ea earum error exercitationem sed. Repellat suscipit quod culpa voluptas facilis aspernatur minima optio eaque iure deleniti quibusdam, eius illum aut commodi necessitatibus blanditiis fuga cum excepturi. Omnis a itaque pariatur soluta numquam assumenda exercitationem eum mollitia cumque veniam, inventore dolor temporibus praesentium quidem, aut, at vero porro dolorum ullam aperiam. Eaque obcaecati consequatur cupiditate officiis harum itaque, debitis architecto repellat possimus vitae qui rerum atque. Sequi quis, veniam in ad debitis dolorem doloremque, assumenda error aut sunt laudantium corporis ipsam natus accusamus eos adipisci quod. Beatae, mollitia modi tenetur deserunt quidem dolor. Ad, minima! Repudiandae, voluptatem aliquam quisquam inventore pariatur iure, ab officia, deleniti quibusdam dicta architecto velit molestias vel odio.</p>
+
+
+        </article>
+
+    </main>
+
+    <script>
+        function ativarAnimacion(){
+            const btn = document.getElementById('bntmenu')
+            btn.classList.toggle('ativarAnimacion')
+        }
+        
+        function clickMenu() {
+            if(menuitens.style.display == 'block') {
+                menuitens.style.display = 'none'
+                // menuitens.style.transition = 0.3s
+            } 
+            else {
+                menuitens.style.display = 'block'
+                // menuitens.style.transition = 0.3s
+            }
+        }
+
+
+
+    </script>
+
+
+</body>
+</html>
