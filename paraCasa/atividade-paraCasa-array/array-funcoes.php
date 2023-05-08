@@ -59,7 +59,11 @@
         //Quando chegar na letra A, ele coloca em outro array
         print_r(explode('a', 'Rafael Gomes de Oliveira'));
         echo "</pre>";
-    
+        
+
+        $v = phpversion();
+
+        echo "Você está rodando a versão $v";
 
         //Sort vai  organizar me ordem alfabetica
     
