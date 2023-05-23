@@ -200,7 +200,7 @@
                         }
 
                         if ($media != 0){
-                        echo "<strong>Media:</strong>" . ($media/2). "<br>";
+                        echo "<strong>Média:</strong>" . ($media/2). "<br>";
                         }
                         $media = 0;
 
