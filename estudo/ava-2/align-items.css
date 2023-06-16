@@ -34,14 +34,18 @@
 .item {
 	flex: 1;
 	margin: 5px;
-	padding: 0 10px;
+	padding: 10px 10px;
 	background: tomato;
 	text-align: center;
 	font-size: 1.5em;
-}
+	/* display: flex;
+	align-items: center;
+	justify-content: center; */
+};
+
 
 .item:first-child {
-	padding-top: 20px;
+	padding: 5px;
 }
 
 .alinhamento-central {
@@ -65,4 +69,25 @@ h1 {
 body {
 	font-family: monospace;
 	color: #333;
+}
+
+.teste {
+	display: flex;
+	max-width: 600px;
+	height: 420px;
+	border: 1px solid gray;
+	margin: 0px auto;
+	flex-direction: row;
+	max-width: 800px;
+	flex-wrap: wrap;
+	
+ }
+
+.item1 {
+	margin: 5px;
+	padding: 10px 10px;
+	background: tomato;
+
+	font-size: 1.5em;
+	width: calc(50% - 30px);
 }
